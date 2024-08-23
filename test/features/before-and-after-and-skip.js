@@ -1,6 +1,6 @@
 'use-strict';
 
-Feature('Mocha Cakes Mathematics Addition', function () {
+Feature('before, after, and .skip', function () {
 
   // This feature is to test before and after hooks
   // https://mochajs.org/#hooks

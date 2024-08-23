@@ -1,25 +1,23 @@
 'use-strict';
 
-Feature('Mocha Cakes Mathematics Subtraction', function () {
+Feature('beforeEach, afterEach, and .only', function () {
 
   // This feature is to test beforeEach and afterEach hooks
   // Also to test .skip
   // https://mochajs.org/#hooks
 
   beforeEach(function () {
-    // Runs before each function
-    // Adds cool blank newline
-    console.log('');
+    // Runs before each test
+    console.log('      Before each test');
   });
 
   afterEach(function () {
-    // Runs after each function
-    // Adds cool text formating
-    console.log('      --------------------------');
+    // Runs after each test
+    console.log('      After each test');
   });
 
 
-  Scenario('Testing subtraction only', function () {
+  Scenario('Testing subtraction', function () {
 
     Given('that 1 - 2 is -1', function () {
       (1 - 2).should.equal(-1);
