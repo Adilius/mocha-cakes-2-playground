@@ -36,8 +36,7 @@ Feature('Mocha Cakes Mathematics Subtraction', function () {
 
   // .only
   // Runs the only specified suite or test-case
-  // Is also forbidden in this playground
-  // Forbidden in package.json/scripts/test
+  // Forbidden in this playground defined in package.json/scripts/test
   /*
   Scenario.only('Testing subtraction only', function () {
     Given('that 4 - 1 is 3', function () {
