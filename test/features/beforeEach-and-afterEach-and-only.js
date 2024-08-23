@@ -1,21 +1,7 @@
 'use-strict';
 
-Feature('beforeEach, afterEach, and .only', function () {
-
-  // This feature is to test beforeEach and afterEach hooks
-  // Also to test .skip
-  // https://mochajs.org/#hooks
-
-  beforeEach(function () {
-    // Runs before each test
-    console.log('      Before each test');
-  });
-
-  afterEach(function () {
-    // Runs after each test
-    console.log('      After each test');
-  });
-
+// This feature is to test .only function
+Feature('Feature for testing .only', function () {
 
   Scenario('Testing subtraction', function () {
 
@@ -32,9 +18,8 @@ Feature('beforeEach, afterEach, and .only', function () {
     });
   });
 
-  // .only
-  // Runs the only specified suite or test-case
-  // Forbidden in this playground defined in package.json/scripts/test
+  // .only runs the only specified suite or test-case
+  // Uncomment code below to try .only
   /*
   Scenario.only('Testing subtraction only', function () {
     Given('that 4 - 1 is 3', function () {

@@ -1,7 +1,7 @@
 'use-strict';
 
 // describe is Mocha native function
-// with Chai you use Feature + Scenario instead for BDD
+// with Chai you use Feature + Scenario instead of describe for BDD
 describe('Mocha native describe function', function () {
 
 

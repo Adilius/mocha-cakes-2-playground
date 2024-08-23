@@ -15,10 +15,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "mocha test --forbid-only"
+    "test": "mocha test"
   },
   "keywords": [],
   "author": "Adilius",
   "license": "ISC",
-  "description": "Since Chai is now ESM, setup file for Chai needs to support both CommonJS and ECMAScript Module. Therefore the change from setup.js to setup.mjs"
+  "description": ""
 }
